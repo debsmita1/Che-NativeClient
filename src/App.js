@@ -1,12 +1,12 @@
 import React, { Component} from "react";
-import AppBody from "./AppBody.js";
+import WorkspaceCards from "./WorkspaceCards.js";
 
 class App extends Component{
   render(){
     return(
       <div className="App">
         <h1> Workspaces </h1>
-        <AppBody/>
+        <WorkspaceCards/>
       </div>
  );
      
